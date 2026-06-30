@@ -1,0 +1,18 @@
+package com.cognizant.slf4j.exercise1;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class LoggingExample {
+
+	// Logger object for this class
+	private static final Logger logger = LoggerFactory.getLogger(LoggingExample.class);
+
+	public static void main(String[] args) {
+
+		logger.error("This is an error message");
+
+		logger.warn("This is a warning message");
+
+	}
+}
